@@ -7,4 +7,4 @@ This configuration creates an EC2 instance using the Amazon Linux AMI with the f
 - Default public key (`~/.ssh/id_rsa.pub`) copied to host.
 
 
-Additionally, [`cmd/deploy.sh`](cmd/deploy.sh) demonstrates one approach to copying compose files to host and starting containers.
+Additionally, [`cmd/deploy.sh`](cmd/deploy.sh) demonstrates one approach to copying a `docker-compose.yml` composition to an instance and remotely starting the container(s).
